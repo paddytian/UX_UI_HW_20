@@ -1,0 +1,474 @@
+html, body {max-width: 90vw; max-height: 100vh;}
+div {
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    margin: 2% 0%;
+    padding: 0%;
+}
+
+.navi {
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+
+
+#logo {
+    position: relative;
+    padding: 0;
+}
+
+#bar {
+    display: block;
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0;
+    font-size: 24px;
+    font-family: "DK Nouveau Crayon Regular";
+    position: absolute;
+    margin-top: 12px;
+}
+
+
+button {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.navigation {
+    height: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    justify-content: flex-end;
+}
+
+#items {
+    cursor: pointer;
+    display: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    height: 36px;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.w3-button {
+    font-size: 24px;
+    color: #231F20;
+    font-family: "DK Nouveau Crayon Regular";
+    text-decoration: none;
+    line-height: 36px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+a:nth-child(1){
+    width: 71px;
+}
+a:nth-child(2){
+    width: 101px;
+}
+a:nth-child(3){
+    width: 92px;
+}
+a:nth-child(4){
+    width: 100px;
+}
+
+/* section */
+
+section {
+    width: 100%;
+}
+
+h1 {
+    font-family: "Crayon Works DEMO Regular";
+    font-size: 58px;
+    color: #231F20;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Crayon Works DEMO Regular";
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #231F20;
+}
+
+h3 {
+    font-family: "DK Nouveau Crayon Regular";
+    font-size: 24px;
+    font-weight: 300;
+    color: #A1A1A1;
+    padding: 0;
+}
+
+h4 {
+    font-family: "DK Nouveau Crayon Regular";
+    font-size: 32px;
+    font-weight: 300;
+    color: #EB4444;
+    padding: 0;
+    margin: 1% 0%;
+}
+
+h5 {
+    font-family: "Crayon Works DEMO Regular";
+    font-size: 58px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0%;
+    color: #231F20;
+}
+
+h6 {
+    font-family: "DK Nouveau Crayon Regular";
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #231F20;
+}
+
+#number {
+    font-family: "DK Nouveau Crayon Regular";
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #A1A1A1;
+}
+
+p {
+    font-family: "DK Nouveau Crayon Regular";
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #231F20;
+    width: 100%;
+}
+
+#LineCat {
+    margin-bottom: -34px;
+    width: 100%;
+    padding: 10px;
+}
+
+#Line {
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 19px;
+    width: 100%;
+    padding: 35px 0;
+}
+
+.mainpage {
+    width: 100%;
+    padding: 0 5%;
+    margin: 0%;
+}
+
+.titleinfo {
+    margin-bottom: 100px;
+}
+
+.hovering {
+    border-image: 5px url(../images/underline1.png);    
+    height: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: baseline;
+    height: 100px;
+    width: 100%;
+    margin: 0%;
+    background-image: url(../images/white.png);
+    background-size: cover;
+}
+
+.item:hover {
+    background-image: url(../images/shadow.png);
+}
+ 
+#back {
+    background-image: white;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    background-size: 100% 100%;                             
+}
+
+#smallftc {
+    position: absolute;
+    right: 50px;
+    top: 400px;
+    display: none;
+}
+
+#smallsdhs {
+    position: absolute;
+    right: 50px;
+    top: 400px;
+    display: none;
+}
+
+#smallseatme {
+    position: absolute;
+    right: 50px;
+    top: 400px;
+    display: none;
+}
+
+/* footer */
+
+.worksection {
+    display: none;
+    width: 40%;
+    height: 42px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+
+#moreWork {
+    display: block;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+#ftcmore {
+    width: 172px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    align-items: center;
+}
+
+.footer1 {
+    width: 100%;
+    height: 42px;
+    display: block;
+    align-items: center;
+}
+
+.footer1 a {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "DK Nouveau Crayon Regular";
+    margin-left: 40px;
+}
+
+#cancel {
+    width: 42px;
+    height: 42px;
+    padding: 0;
+}
+
+.worksection button a {
+    padding: 0%;
+    margin-bottom: 16px;
+}
+
+.icon {
+    width: 100%;
+    height: 40px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.icon a {
+    width: 40px;
+    height: 40px;
+}
+
+
+.a1 {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    padding: 0%;
+}
+
+#a2 {
+    height: 40px;
+    width: 40px;
+    padding: 0%;
+}
+
+#a3 {
+    height: 40px;
+    width: 40px;
+    padding: 0%;
+}
+
+.maininfo {
+    margin: 0%;
+    padding: 4%;
+}
+
+.homepage img {
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.homepage {
+    margin: 0%;
+    padding: 2% 4%;
+    width: 100%;
+}
+
+.title {
+    margin: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title p {
+    display: flex;
+    justify-content: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    margin: 2% 0%;
+    padding: 0%;
+}
+
+.skills {
+    padding: 0%;
+    display: flex;
+    width: auto;
+}
+
+.info {
+    padding: 4%;
+    margin:  0%;
+    width: 92%;
+}
+
+.info img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.imgs {
+    background-image: url(../images/background1.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    margin: 4% 0%;
+    padding: 0%;
+}
+
+.thinking1 {
+    width: 100%;
+    padding: 0%;
+    display: flex;
+    padding-top: 1%;
+}
+
+.ad {
+    width: 100%;
+}
+
+.ad img {
+    display: flex;
+    justify-content: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    margin: 4% 0%;
+    padding: 0%;
+}
+
+.userpersona img {
+    display: flex;
+    justify-content: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    margin: 4% 0%;
+    padding: 0%;
+}
+
+.lofi img {
+    display: flex;
+    justify-content: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    margin: 4% 0%;
+    padding: 0%;
+}
+
+.hifi {
+    display: flex;
+    align-items: center;
+}
+
+.hifi img {
+    width: 100%;
+    height: 100%;
+    padding: 0% 1%;
+}
+
+.off {
+    display: flex;
+    align-items: center;
+}
+
+.off img {
+    width: 80%;
+    height: 100%;
+}
+
+.donatepage {
+    display: flex;
+    align-items: center;
+}
+
+.donatepage img {
+    width: 100%;
+    height: 100%;
+}

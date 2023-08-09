@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="../UX_UI_HW_20/css/index.css">
+<link rel="stylesheet" href="../UX_UI_HW_20/js/index.js">
+<link href="https://db.onlinewebfonts.com/c/278d21d79635e39851472d81371fa2aa?family=DK+Nouveau+Crayon+Regular" rel="stylesheet">
+<link href="https://db.onlinewebfonts.com/c/699dc1e4167e2bdae611e413fd4a8fe0?family=Crayon+Works+DEMO+Regular" rel="stylesheet">
+</head>
+<body>
+<!-- Navbar -->
+<div class="navi">
+    <ul id="logo"><img src="../UX_UI_HW_20/images/logo.png"></ul>
+    <ul class="navigation">
+        <button class="MORE hovering" id="bar" onclick="myfunction()">MORE</button>
+        <span class="toggleMenu" id="items"> 
+            <a href="#" class="w3-bar-item w3-button hovering">About</a>
+            <a href="#" class="w3-bar-item w3-button hovering">Resume</a>
+            <a href="#" class="w3-bar-item w3-button hovering">LinkedIn</a>
+            <a href="#" class="w3-bar-item w3-button hovering">Contact</a>
+        </span>
+    </ul>
+    <script>
+        function myfunction(){
+            var x = document.getElementById("items");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            }else{
+                x.style.display = "block";
+            }
+            var y = document.getElementById("bar");
+            if (y.style.display === "none") {
+                y.style.display = "block";
+            }else{
+                y.style.display = "none";
+            }
+        }
+    </script>
+</div>
+<section class="homepage">
+    <img src="../UX_UI_HW_20/images/home.png">
+    <div class="title">
+        <h1>Simcoe And District Humane Society</h1>
+        <p>Redesign for Simcoe and District Humane Society website. Help users to adopt or volunteer for pets easier. </p>
+    </div>
+</section>
+<footer>
+    <div class="footer1">
+        <ul id="moreWork" onclick="myworks()"><img src="../UX_UI_HW_20/images/more.png"></ul>
+        <ul class="worksection" id="pastwork">
+            <button id="cancel" onclick="cancelmyworks()"><img src="../UX_UI_HW_20/images/cancel.png"></button>
+            <button><a>SADHS</a></button>
+            <button id="ftcmore"><a>FTC Redesign</a></button>
+            <button><a>SeatMe</a></button>
+        </ul>
+
+        <script>
+            function myworks(){
+                var x1 = document.getElementById("pastwork");
+                if (x1.style.display === "flex") {
+                    x1.style.display = "none";
+                }else{
+                    x1.style.display = "flex";
+                }
+                var y1 = document.getElementById("moreWork");
+                if (y1.style.display === "none") {
+                    y1.style.display = "block";
+                }else{
+                    y1.style.display = "none";
+                }
+            }
+
+            function cancelmyworks(){
+                var x2 = document.getElementById("pastwork");
+                if (x2.style.display === "none") {
+                    x2.style.display = "flex";
+                }else{
+                    x2.style.display = "none";
+                }
+                
+                var y2 = document.getElementById("moreWork");
+                if (y2.style.display === "block") {
+                    y2.style.display = "none";
+                }else{
+                    y2.style.display = "block";
+                }
+            }
+        </script>
+    </div>
+</footer>
+<section class="maininfo">
+    <div class="skills">
+        <div id="myrole">
+            <h2>My Role</h2>
+            <h3>User Research</h3>
+            <h3>Wireframe, Prototype</h3>
+            <h3>Interaction Design</h3>
+        </div>
+        <div id="project">
+            <h2>Project</h2>
+            <h3>Group Project</h3>
+        </div>
+        <div id="timeline">
+            <h2>Timeline</h2>
+            <h3>21 Days (2023)</h3>
+        </div>
+        <div id="toolsused">
+            <h2>Tools Used</h2>
+            <h3>Figma</h3>
+            <h3>Adobe Illustrator</h3>
+        </div>
+    </div>
+    <div class="overviews imgs">
+        <div class="info">
+            <h4>Overview</h4>
+            <h5>Description</h5>
+            <p>Simcoe & District Humane Society is a non-profit organization that receives no government funding or assistance and relies solely on the donations and fundraisers provided by volunteers. Their mission statement is to help animals & people in Norfolk County and treat animals that are unwanted, abandoned or otherwise cannot be cared for due to overpopulation. </p>
+            <h5>Design Process</h5>
+            <img src="../UX_UI_HW_20/images/design process.png">
+        </div>
+    </div>
+    <div class="initialthinking">
+        <h5>Initial Thinking</h5>
+        <div class="thinking1"><div class="target">
+            <h6>Target User</h6>
+            <ul>
+                <li><h3>People who wants to adopt a pet</h3></li>
+                <li><h3>People who wants to volunteer for pets</h3></li>
+                <li><h3>People who wants to donate to humane society</h3></li>
+            </ul>
+        </div>
+        <div class="researchmethods">
+            <h6>Research Methods</h6>
+            <ul>
+                <li><h3>In-person interview</h3></li>
+                <li><h3>Online interview</h3></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div class="hmwq">
+        <h5>How Might We Questions</h5>
+        <ul>
+            <h3>1. How might we... improve a website that is not overwhelming to anxious users?</h3>
+            <h3>2. How might we... promote our site to gather potential volunteers/donors?</h3>
+            <h3>3. How might we... Add more details on animals that are actually up for adoption?</h3>
+            <h3>4. How might we... Make it easier to navigate the website and make it less confusing?</h3>
+            <h3>5. How might we... add consistent branding throughout the website?</h3>
+            <h3>6. How might we... Making the information on the website easier to digest and read?</h3>
+        </ul>
+    </div>
+    <div class="userinterviews imgs">
+        <div class="info">
+            <h4>User Interviews</h4>
+            <h5>Core Questions</h5>
+            <ul>
+                <h3>1. "What are your frustrations regarding pet adoption?"</h3>
+                <h3>2. "How would you choose to adopt or purchase a pet?"</h3>
+                <h3>3. "What's the most important things you look for when choosing a pet?"</h3>
+            </ul>
+        </div>
+    </div>
+    <div class="ad">
+        <h5>Affinity Diagram</h5>
+        <img src="../UX_UI_HW_20/images/Affinity Diagram and Empathy Map 1.png">
+    </div>
+    <div class="painpoints imgs">
+        <div class="info">
+            <h5>Pain Points</h5>
+            <ul>
+                <h3>1. The navigation bar is hard to read.</h3>
+                <h3>2. Long forms and documents can be frustrating.</h3>
+                <h3>3. It’s hard to find the donate button, and the payment methods seems wired.</h3>
+            </ul>
+        </div>
+    </div>
+    <div class="userpersona">
+        <h5>User Persona</h5>
+        <p>Simmy Rodriguez, a shy and reserved woman, wants to adopt a pet to suit her more indoorsy lifestyle, because she wishes for a form of companionship that leaves her less anxious and lonely.</p>
+        <img src="../UX_UI_HW_20/images/user persona.png">
+    </div>
+    <div class="problemstatement imgs">
+        <div class="info">
+            <h5>Problem Statement</h5>
+            <h3>Simcoe And District Humane Society was designed to achieve the goal of pet adoption and volunteer services. We have observed that the website isn’t meeting the goal of pet adoption and volunteer services due to an inconsistent navigation, which is discouraging users from adopting pets from the Simcoe and District Humane Society, or even volunteering and donating.</h3>
+        </div>
+    </div>
+    <div class="lofi">
+        <h4>Prototype</h4>
+        <h5>Lo-fi Wireframe</h5>
+        <img src="../UX_UI_HW_20/images/lofi wireframe 1.png">
+    </div>
+    <div class="designconcept imgs">
+        <div class="info">
+            <h4>Design Concept</h4>
+            <h5>Visual Identity</h5>
+            <img src="../UX_UI_HW_20/images/visual identity.png">
+        </div>
+    </div>
+    <div class="hifi">
+        <div class="designsolution">
+            <h4>High-fidelity Design</h4>
+            <h5>Design Solution</h5>
+            <a id="number">01</a>
+            <h5>Organized Navigation Bar</h5>
+            <h3>We reorganized the navigation bar. The main features for the website are easy to find now. And we also create a search bar, the users could transfer to the website they want easily.</h3>
+        </div>
+        <img src="../UX_UI_HW_20/images/hifi design.png">
+    </div>
+    <div class="onlinefill imgs">
+        <div class="info info1 off">
+            <div>
+                <a id="number">02</a>
+                <h5>Online fill form</h5>
+                <h3>The original forms are pdf fill, and the user should download and email to them. We create an online fill form and they can also book for visit after they fill out the application form.</h3>
+            </div>
+            <img src="./images/online fill form.png">
+        </div>
+    </div>
+    <div class="donatepage">
+        <div class="info1">
+            <a id="number">03</a>
+            <h5>Donation page</h5>
+            <h3>We create a new donation page. We delete the email transfer and phone call payment method, and add credit card payment. Users could choose the amount and also choose the different payment from credit card or PayPal. </h3>
+        </div>
+        <img src="../UX_UI_HW_20/images/donate page.png">
+    </div>
+</section>
+</body>
+</html>
